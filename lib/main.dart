@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 
-import 'curved_navigation_bar/curved_navigation_bar.dart';
+import 'flutter_html/flutter_html.dart';
+
 
 void main() {
   runApp(MyApp());
@@ -24,7 +25,8 @@ class MyApp extends StatelessWidget {
         // is not restarted.
         primarySwatch: Colors.blue,
       ),
-      home: new CurvedNavigationBarPage(),
+      home: new FlutterHtmlPage(),
+        // MyHomePage(title: 'Markdown Demo'),
     );
   }
 }
